@@ -98,7 +98,6 @@ TF-PROJECT/
 - **remote-exec**: Runs commands on EC2 after creation (e.g., install Nginx).
 - **file**: Copies files from `app_files/` to backend EC2s via SSH (using proxy as bastion).
 
-![terraform-3](https://github.com/user-attachments/assets/c4c3cca4-9e5e-41de-8b62-8e9a2f93db1a)
 
 
 ---
