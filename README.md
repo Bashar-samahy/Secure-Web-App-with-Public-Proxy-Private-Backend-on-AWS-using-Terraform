@@ -117,6 +117,10 @@ TF-PROJECT/
 - **Connect to Backend (via Proxy)**:  
   Use SSH agent forwarding or ProxyJump.
 
+![terraform-9](https://github.com/user-attachments/assets/a822d76f-40a7-421a-9e25-bdc68148a6be)
+![terraform-10](https://github.com/user-attachments/assets/5e520092-ea1e-44e2-8d46-e064407ce015)
+
+
 ---
 
 ## ⚙️ How to Deploy
