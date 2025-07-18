@@ -85,6 +85,9 @@ TF-PROJECT/
 - **remote-exec**: Runs commands on EC2 after creation (e.g., install Nginx).
 - **file**: Copies files from `app_files/` to backend EC2s via SSH (using proxy as bastion).
 
+![terraform-3](https://github.com/user-attachments/assets/c4c3cca4-9e5e-41de-8b62-8e9a2f93db1a)
+
+
 ---
 
 ## 🔑 SSH Access
@@ -122,6 +125,10 @@ TF-PROJECT/
 
 4. **Check Outputs**  
    - Find public IPs, ALB DNS, and SSH commands in `terraform output`.
+
+![terraform-1](https://github.com/user-attachments/assets/2f7a50fa-b987-4e96-a547-8e69ef45641d)
+![terraform-2](https://github.com/user-attachments/assets/e3457226-2660-4c04-aaa3-4aaeb2bdbfb8)
+
 
 ---
 
