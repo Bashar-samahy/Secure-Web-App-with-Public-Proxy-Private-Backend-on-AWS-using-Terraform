@@ -173,4 +173,15 @@ terraform destroy
 ## 🙋 Need Help?
 
 If you encounter issues, check error messages and review the troubleshooting section above.  
-For
+- For production, restrict SSH access and use SSM Session Manager.
+
+---
+
+## 🙋 Need Help?
+
+If you encounter issues, check error messages and review the troubleshooting section above.  
+For more details, see the [Terraform AWS Provider Docs](https://registry.terraform.io/providers/hashicorp/aws/latest/docs).
+
+---
+
+Happy Terraforming! 🌍🚦🖥️
