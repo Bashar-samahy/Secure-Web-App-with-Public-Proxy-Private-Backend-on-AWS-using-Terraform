@@ -64,9 +64,15 @@ TF-PROJECT/
 - **VPC**: Named `bashar-vpc-1`, provides network isolation.
 - **Subnets**: Public and private subnets for proxy and backend instances.
 
+![terraform-3](https://github.com/user-attachments/assets/9e9fcf17-5f41-45cc-809e-33f5e6797ee2)
+
+
 ### 2. **Security Groups**
 - **bashar-pub-sg**: For proxy servers, allows HTTP/HTTPS/SSH from anywhere.
 - **bashar-prv-sg**: For backend servers, allows traffic only from proxy SG and SSH.
+
+<img width="1622" height="323" alt="image" src="https://github.com/user-attachments/assets/20ae05d6-eaf3-44a9-b2de-3efb4cb5a60e" />
+
 
 ### 3. **EC2 Instances**
 - **Proxy Instances**: Named `bashar-proxy-1`, `bashar-proxy-2`, etc.  
@@ -78,8 +84,15 @@ TF-PROJECT/
   - Provisioned via proxy (bastion) host.
   - Receives files from `app_files/` directory.
 
+![terraform-7](https://github.com/user-attachments/assets/e0f2cbe1-2868-48e0-a1c2-3c70ef059795)
+
 ### 4. **Application Load Balancer**
 - **Public & Internal ALBs**: Distributes traffic to proxy and backend instances.
+
+![terraform-5](https://github.com/user-attachments/assets/551bdb68-d44c-490d-9a8f-87bf3c166eb7)
+
+![terraform-4](https://github.com/user-attachments/assets/ba4a4ce4-d6f2-4149-b827-94375401762d)
+
 
 ### 5. **Provisioners**
 - **remote-exec**: Runs commands on EC2 after creation (e.g., install Nginx).
@@ -157,6 +170,9 @@ TF-PROJECT/
   - `terraform output backend_private_ips`
 - **SSH Command Example**:  
   - `terraform output ssh_command`
+
+![terraform-8](https://github.com/user-attachments/assets/516478b4-4105-40b0-b224-d11874c1c280)
+
 
 ---
 
