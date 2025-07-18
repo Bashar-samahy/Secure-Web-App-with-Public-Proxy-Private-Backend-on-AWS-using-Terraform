@@ -1,0 +1,7 @@
+Proxy Server IPs:
+    proxy-1    3.82.58.216
+    proxy-2    44.195.0.234
+    
+Backend Server IPs:
+    backend-1    10.0.1.28
+    backend-2    10.0.3.114
