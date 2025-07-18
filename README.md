@@ -1,4 +1,4 @@
-# 🚀 TF-PROJECT-TEST: Terraform AWS Infrastructure
+# 🚀 TF-PROJECT: Terraform AWS Infrastructure
 
 Welcome to **TF-PROJECT**!  
 This project uses Terraform to provision a multi-tier AWS infrastructure including VPC, subnets, security groups, EC2 instances, and an Application Load Balancer.
