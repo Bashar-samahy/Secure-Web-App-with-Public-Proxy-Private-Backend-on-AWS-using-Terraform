@@ -3,6 +3,9 @@
 Welcome to **TF-PROJECT**!  
 This project uses Terraform to provision a multi-tier AWS infrastructure including VPC, subnets, security groups, EC2 instances, and an Application Load Balancer.
 
+<img width="982" height="508" alt="image" src="https://github.com/user-attachments/assets/2cdc0210-16a2-47d5-8288-0f7177fcba25" />
+
+
 ---
 
 ## 📁 Project Structure
